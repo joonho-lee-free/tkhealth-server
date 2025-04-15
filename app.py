@@ -9,6 +9,10 @@ import uuid
 
 # ✅ 환경변수에서 base64로 저장된 키 가져오기
 firebase_key_base64 = os.environ.get("FIREBASE_KEY_BASE64")
+
+# 디버깅 로그 찍기 🔍
+print("🔥 FIREBASE_KEY_BASE64 exists:", firebase_key_base64 is not None)
+
 if not firebase_key_base64:
     raise ValueError("FIREBASE_KEY_BASE64 환경변수가 설정되지 않았습니다.")
 
