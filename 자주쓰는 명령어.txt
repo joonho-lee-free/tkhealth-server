@@ -1,0 +1,17 @@
+cd C:\ATK
+
+cd C:\atk\tkhealth_v0.1
+
+cd C:\atk\tkhealth_v0.1\android
+
+http://172.30.1.43:8081
+
+npx expo start
+
+npx expo run:android
+
+npx expo start --clear //캐시삭제
+
+npm install
+
+npm install firebase
