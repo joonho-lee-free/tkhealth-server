@@ -1,1 +1,22 @@
-"tkhealth-key.json" 
+# 기본적인 Python 관련 무시 항목
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# VSCode, macOS, 기타 편집기 관련
+.DS_Store
+.vscode/
+
+# log, cache 등 임시 파일
+*.log
+*.tmp
+
+# ⚠️ 민감 파일 제외 주의!
+# firebase-key.json 이 항목은 이제 Git에 포함되도록 주석처리하거나 제거했음
+# tkhealth-key.json
