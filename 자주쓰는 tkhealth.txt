@@ -1,0 +1,6 @@
+
+cd C:\TKHealth-server
+
+git add .
+git commit -m "🔥 Firebase 연동 + 로컬 키 파일 방식 설정"
+git push origin main
